@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dcdcdc;
+}
+
+img{
+    width: 7%;
+}
+
+a {
+    cursor: pointer;
+    color: #000;
+}
+
+h1, h2, h3, h3, p {
+    font-family: Abeezee;
+}
+
+/* navbar*/ 
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: Inter;
+    padding: 0 1rem;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+}
+
+#menu a {
+    color: #000;
+    text-transform: uppercase;
+    transition: .2s;
+}
+
+#menu a:hover {
+    color: #6d6d6d;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#login-signup {
+    display: flex;
+    padding-right: 5rem;
+    color: #000000;
+    font-family: Inter;
+}
+
+#division-bar {
+    margin: 0 10px;
+}
+
+/*about section*/
+#about-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 65px;
+
+}
+
+#about-section img {
+    width: 63%;
+    justify-self: center;
+}
+
+#text-container{
+    margin-bottom: 80px;
+}
+
+#text-container h1 {
+    font-size: 85px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#text-container p {
+    font-size: 20px;
+    text-align: justify;
+    max-width: 80%;
+    margin-bottom: 15px;
+}
+
+#text-container h3 {
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#restaurant-image {
+    width: 100%;
+}
+
+/*images section*/
+#images-section {
+    margin-bottom: 200px
+}
+
+#images-section h2 {
+    font-size: 59px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
+#red-text {
+    color: #FF5C39;
+}
+
+#images-container {
+    text-align: center;
+    position: relative;
+}
+
+#images-container img {
+    width: 20%;
+    margin-right: 3rem;
+}
+
+.small-image {
+    position: relative;
+    bottom: 9.2rem;
+}
+
+/* footer */
+footer {
+    border-top: .5px solid #afafaf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+footer h4 {
+    font-family: Inter;
+    font-size: 19px;
+    margin: 15px 0;
+    font-weight: 700;
+}
+
+footer p {
+    font-family: Abeezee;
+}

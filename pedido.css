@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dcdcdc;
+}
+
+img{
+    width: 7%;
+}
+
+a {
+    cursor: pointer;
+    color: #000;
+}
+
+/* navbar*/ 
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: Inter;
+    padding: 0 1rem;
+    align-items: center;
+}
+
+#main-nav {
+    margin-bottom: 110px;
+}
+
+#menu {
+    margin-left: 9rem;
+}
+#menu a {
+    color: #000;
+    text-transform: uppercase;
+    transition: .2s;
+}
+
+#menu a:hover {
+    color: #6d6d6d;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+#main-nav ul {
+    gap: 60px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li {
+    cursor: pointer;
+}
+
+#login-signup {
+    display: flex;
+    padding-right: 5rem;
+    color: #000;
+    font-family: Inter;
+}
+
+
+#login-signup {
+    z-index: 100;
+}
+
+#division-bar {
+    margin: 0 10px;
+}
+
+/* order */
+#container {
+    font-family: Abeezee;
+}
+
+#back-btn, 
+#order-amount {
+   color: #424242; 
+   padding: 6px;
+   background-color: #ffffff;
+   font-size: 20px;
+   display: flex;
+   align-items: center;
+   border-radius: 3rem;
+}
+
+#back-btn {
+    width: 7%;
+    position: absolute;
+    top: 160px;
+    left: 230px;
+}
+
+i {
+    margin: 0 5px;
+}
+
+#order {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 15px
+}
+
+#order-content {
+    width: 35%;
+}
+
+#order-amount {
+    width: 15%;
+    justify-content: space-around;
+    font-weight: 500;
+}
+
+.increase-decrease {
+    cursor: pointer;
+}
+
+#order-name {
+    font-size: 30px;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+#add-order {
+    display: flex;
+    gap: 30px;
+}
+
+#price {
+    font-size: 25px;
+    align-self: center;
+}
+
+#add-cart-btn {
+    background-color: #FF6D4D;
+    color: #ffffff;
+    padding: 6px 10px;
+    align-self: center;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+#order-amount-number {
+    font-family: Inter;
+}
+
+#order-img {
+    width: 25%;
+}
+

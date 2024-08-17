@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/jpg" href="img/hanboklogofavicon.jpg">
+</head>
+<body>
+    <nav>
+        <img src="img/hanboklogo.png" alt="logo hanbok">
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quem-somos.html">Quem somos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+        <div id="login-signup">
+            <a href="login.html">Log in</a>
+            <p id="division-bar">|</p>
+            <a href="cadastro.html">Cadastro</a>
+        </div>
+    </nav>
+
+    <div id="container">
+        <div id="signup-container">
+            <h1>Criar Conta</h1>
+            <form>
+                <input type="text" placeholder="Nome:" class="user-input" id="name-input">
+                <input type="email" placeholder="Email:" class="user-input" id="email-input">
+                <input type="password" placeholder="Senha:" class="user-input" id="email-input">
+                <input type="submit" id="submit-btn" value="Criar conta">
+            </form>
+
+            <div id="line">
+                <span class="line-span"></span>
+                <p id="line-text">Ou crie com</p>
+                <span class="line-span"></span>
+            </div>
+
+            <div id="login-options">
+                <i class="fab fa-google" style="color: #fd6e4e;"></i>
+                <p>Já tem uma conta? <a href="login.html">Faça login</a></p>
+            </div>
+        </div>
+    </div>
+</body>

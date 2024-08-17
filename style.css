@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dcdcdc;
+}
+
+img{
+    width: 7%;
+}
+
+a {
+    cursor: pointer;
+    color: #fff;
+}
+
+/* navbar*/ 
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: Inter;
+    padding: 0 1rem;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+}
+
+#menu a {
+    color: #000;
+    text-transform: uppercase;
+    transition: .2s;
+}
+
+#menu a:hover {
+    color: #6d6d6d;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#login-signup {
+    display: flex;
+    padding-right: 5rem;
+    color: #e9e6e6;
+    font-family: Inter;
+}
+
+/*main*/
+
+#container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 100px 1fr 100px;
+    height: 100vh;
+
+}
+
+#background {
+    background: url(img/background.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+#login-signup {
+    z-index: 100;
+}
+
+#division-bar {
+    margin: 0 10px;
+}
+
+footer {
+    grid-row-start: 3;
+}
+
+/* main text */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-text {
+    position: absolute;
+}
+
+#main-text h1, a{
+    font-family: Abeezee;
+}
+
+#main-text h1 {
+    font-size: 145px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+#main-text h3{
+    font-family: Inter;
+    width: 55%;
+    font-weight: 400;
+    font-size: 23px;
+}
+
+#main-text a {
+    background-color: #FF5C39;
+    color: #fff;
+    font-size: 30px;
+    padding: 8px 18px;
+    width: 40%;
+    position: relative;
+    left: 54%;
+    transition: .2s;
+}
+
+#main-text a:hover {
+    background-color: #FD856B;
+}
+
+/* footer */
+footer {
+    border-top: .5px solid #afafaf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+footer h4 {
+    font-family: Inter;
+    font-size: 19px;
+    margin: 15px 0;
+    font-weight: 700;
+}
+
+footer p {
+    font-family: Abeezee;
+}
+

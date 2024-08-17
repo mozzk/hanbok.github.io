@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dcdcdc;
+}
+
+img{
+    width: 7%;
+}
+
+a {
+    cursor: pointer;
+    color: #000;
+}
+
+/* navbar*/ 
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: Inter;
+    padding: 0 1rem;
+    align-items: center;
+}
+
+#main-nav {
+    margin-bottom: 70px;
+}
+
+#menu {
+    margin-left: 9rem;
+}
+#menu a {
+    color: #000;
+    text-transform: uppercase;
+    transition: .2s;
+}
+
+#menu a:hover {
+    color: #6d6d6d;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+#main-nav ul {
+    gap: 60px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li {
+    cursor: pointer;
+}
+
+#login-signup {
+    display: flex;
+    padding-right: 5rem;
+    color: #000;
+    font-family: Inter;
+}
+
+
+#login-signup {
+    z-index: 100;
+}
+
+#division-bar {
+    margin: 0 10px;
+}
+
+/* menu */
+h1 {
+    margin-bottom: 90px;
+    font-size: 90px;
+    font-weight: 500;
+}
+
+#categories-nav {
+    margin-bottom: 60px;
+    font-size: 25px;
+    border-bottom: 1px solid #6d6d6d;
+    padding-bottom: 10px;
+}
+
+#categories-nav ul {
+    gap: 10rem;
+}
+
+#selected {
+    color: #fd512a;
+    border-bottom: 2px solid #fd7f62;
+}
+
+#menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Abeezee;
+}
+
+#menu-section {
+    display: grid;
+    /* grid-template-columns: repeat(5, 1fr); */
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 50px;
+    margin-bottom: 150px;
+}
+
+#left-side {
+    grid-area: 1 / 1 / 4 / 2;
+}
+
+#right-side {
+    grid-area: 1 / 5 / 4 / 6;
+}
+
+.menu-item {
+    cursor: pointer;
+
+}
+
+.menu-item img {
+    width: 100%;
+}
+
+.item-price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+/* footer */
+footer {
+    border-top: .5px solid #afafaf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+footer h4 {
+    font-family: Inter;
+    font-size: 19px;
+    margin: 15px 0;
+    font-weight: 700;
+}
+
+footer p {
+    font-family: Abeezee;
+}

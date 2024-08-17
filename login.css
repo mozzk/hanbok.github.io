@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(img/tteokbokki-guide-korean-street-food\ 1.png);
+    background-color: #3A3B41;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 7%;
+}
+
+a {
+    cursor: pointer;
+    color: #ffff;
+}
+
+/* navbar*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: Inter;
+    padding: 0 1rem;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+#menu {
+    margin-left: 9rem;
+}
+
+#menu a {
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: .2s;
+}
+
+#menu a:hover {
+    color: #6d6d6d;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    cursor: pointer;
+}
+
+#login-signup {
+    display: flex;
+    padding-right: 5rem;
+    color: #ffffff;
+    font-family: Inter;
+}
+
+
+#login-signup {
+    z-index: 100;
+}
+
+#division-bar {
+    margin: 0 10px;
+}
+
+/* contact container */
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signup-container {
+    background-color: #f8f8f8;
+    width: 35%;
+    padding: 3rem 3rem 2rem;
+    font-family: Abeezee;
+    border-radius: 1rem;
+}
+
+h1 {
+    color: #4E505A;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
+form {
+    display: flex;
+    flex-direction: column
+}
+
+textarea,
+input:focus {
+    outline: none;
+}
+
+.user-input {
+    background-color: #dcdcdc;
+    font-family: Abeezee;
+    font-size: 15px;
+    border: none;
+    border-radius: .7rem;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+::placeholder {
+    color: #5a5c65;
+}
+
+#name-input,
+#email-input {
+    height: 40px;
+}
+
+#line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#submit-btn {
+    font-family: Abeezee;
+    background-color: #FD8166;
+    color: #f6f6f6;
+    padding: 6px 10px;
+    align-self: center;
+    border-radius: 3rem;
+    border: none;
+    width: 40%;
+    font-size: 25px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.line-span {
+    height: .8px;
+    width: 60%;
+    background-color: #C3C3C3;
+}
+
+#line-text {
+    width: 35%;
+    margin: 0 15px;
+    color: #6D6D6D;
+}
+
+#login-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+i {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+
+#login-options p {
+    color: #6D6D6D;
+}
+
+#login-options a {
+    color: #FD8166;
+}
